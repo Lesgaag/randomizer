@@ -12,7 +12,7 @@ const routes: Routes = [
   { path: 'possibilities', component: PossibilitiesPageComponent },
   { path: 'randomizer', component: RandomizerPageComponent },
   { path: 'home', component: MainPageComponent },
-  { path: '**', component: MainPageComponent }
+  { path: '**', component: MainPageComponent },
 ];
 
 @NgModule({
