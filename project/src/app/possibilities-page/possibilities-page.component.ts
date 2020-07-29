@@ -6,11 +6,39 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./possibilities-page.component.scss']
 })
 export class PossibilitiesPageComponent implements OnInit {
+  selectedTypes: boolean;
+  selectedLevels: boolean;
+  selectedOrigins: boolean;
 
-  constructor() { }
+  constructor() {
+    this.selectedTypes = false;
+    this.selectedLevels = false;
+    this.selectedOrigins = false;
+   }
+
+   // TODO: van deze 3 functies 1 functie maken
+   toggleTypes() {
+    !this.selectedTypes ? (this.selectedTypes = true) : (this.selectedTypes = false);
+
+    this.selectedLevels = false;
+    this.selectedOrigins = false;
+   }
+
+   toggleOrigins() {
+    !this.selectedOrigins ? (this.selectedOrigins = true) : (this.selectedOrigins = false);
+
+    this.selectedTypes = false;
+    this.selectedLevels = false;
+   }
+
+   toggleLevels() {
+    !this.selectedLevels ? (this.selectedLevels = true) : (this.selectedLevels = false);
+
+    this.selectedOrigins = false;
+    this.selectedTypes = false;
+   }
 
   ngOnInit() {
-
     const coll = document.getElementsByClassName('collapsible');
     let i: number;
 

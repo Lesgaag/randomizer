@@ -5,13 +5,15 @@
     possibilities-page works!
   </p>
   
-  <button type="button">Types</button>
-  <button type="button">Levels</button>
-  <button type="button">Origins</button>
+  <!-- TODO: add styling to buttons (voorkeur is ronde buttons) -->
+  <button (click)="toggleTypes()">Types</button>
+  <button (click)="toggleLevels()">Levels</button>
+  <button (click)="toggleOrigins()">Origins</button>
 
-  <app-possibility-levels></app-possibility-levels>
-  <app-possibility-origins></app-possibility-origins>
-  <app-possibility-types></app-possibility-types>
+  <!-- TODO: add styling alsof er een haakje boven staat en naar boven wijst (^) -->
+  <app-possibility-types [hidden]="!selectedTypes"></app-possibility-types>
+  <app-possibility-levels [hidden]="!selectedLevels"></app-possibility-levels>
+  <app-possibility-origins [hidden]="!selectedOrigins"></app-possibility-origins>
 
 </div>
 
