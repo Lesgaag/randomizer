@@ -9,6 +9,9 @@ import { RandomizerPageComponent } from './randomizer-page/randomizer-page.compo
 import { PossibilitiesPageComponent } from './possibilities-page/possibilities-page.component';
 import { ContactPageComponent } from './contact-page/contact-page.component';
 import { AboutPageComponent } from './about-page/about-page.component';
+import { PossibilityTypesComponent } from './possibilities-page/possibility-types/possibility-types.component';
+import { PossibilityLevelsComponent } from './possibilities-page/possibility-levels/possibility-levels.component';
+import { PossibilityOriginsComponent } from './possibilities-page/possibility-origins/possibility-origins.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +21,10 @@ import { AboutPageComponent } from './about-page/about-page.component';
     RandomizerPageComponent,
     PossibilitiesPageComponent,
     ContactPageComponent,
-    AboutPageComponent
+    AboutPageComponent,
+    PossibilityTypesComponent,
+    PossibilityLevelsComponent,
+    PossibilityOriginsComponent
   ],
   imports: [
     BrowserModule,
