@@ -7,6 +7,7 @@ import { NavigatorComponent } from './navigator/navigator.component';
 import { MainPageComponent } from './main-page/main-page.component';
 import { RandomizerPageComponent } from './randomizer-page/randomizer-page.component';
 import { PossibilitiesPageComponent } from './possibilities-page/possibilities-page.component';
+import { ContactPageComponent } from './contact-page/contact-page.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { PossibilitiesPageComponent } from './possibilities-page/possibilities-p
     NavigatorComponent,
     MainPageComponent,
     RandomizerPageComponent,
-    PossibilitiesPageComponent
+    PossibilitiesPageComponent,
+    ContactPageComponent
   ],
   imports: [
     BrowserModule,
