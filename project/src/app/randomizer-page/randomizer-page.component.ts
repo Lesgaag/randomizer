@@ -34,7 +34,7 @@ export class RandomizerPageComponent implements OnInit {
     switch (selectedNumber) {
       // type 1
       case 1: case 2: case 3: case 4: case 5:
-        chosenType = 'Grass';
+        chosenType = 'Nature';
         rarity = 'not rare';
         break;
       // type 2
