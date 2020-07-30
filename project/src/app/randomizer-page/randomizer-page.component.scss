@@ -1,7 +1,14 @@
+$font-family: Arial, Helvetica, sans-serif;
+
 .result-card {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
-    width: 40%;
+    height: 100%;
+    width: 80%;
+    margin-left: 10%;
+    align-items: center;
+    justify-content: center;
+    font-family: $font-family;
   }
   
 .result-card:hover {
@@ -10,4 +17,14 @@
   
 .result-container {
     padding: 2px 16px;
+}
+
+.resultSpan {
+    font-weight: bold;
+    color: red;
+}
+
+.secondResultSpan {
+    font-weight: italic;
+    color: green;
 }
