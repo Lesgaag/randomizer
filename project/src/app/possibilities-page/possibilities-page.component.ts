@@ -16,7 +16,7 @@ export class PossibilitiesPageComponent implements OnInit {
     this.selectedOrigins = false;
    }
 
-   // TODO: van deze 3 functies 1 functie maken
+   // shows and hides clicked item
    toggleTypes() {
     !this.selectedTypes ? (this.selectedTypes = true) : (this.selectedTypes = false);
 
@@ -39,6 +39,7 @@ export class PossibilitiesPageComponent implements OnInit {
    }
 
   ngOnInit() {
+    // adds collapsible functionality
     const coll = document.getElementsByClassName('collapsible');
     let i: number;
 
