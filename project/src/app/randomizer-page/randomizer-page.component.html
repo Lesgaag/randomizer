@@ -1,3 +1,17 @@
+<!-- TODO: add pretty styling -->
 <p>
-  randomizer-page works!
+  TODO: voeg informatie toe
 </p>
+
+<button id="create-character-button" (click)="randomElementType()" (click)="adjustButton()">Create character</button>
+
+<!-- TODO: add calculating animation, before showing div below -->
+<div class="result-card" id="result-card-character" hidden>
+  <div class="result-container">
+    <h4><b>Randomizer results</b></h4> 
+    <!-- TODO: verwijderen 'gekozen-nummer' -->
+    <p>Gekozen nummer: <span id="gekozen-nummer"></span></p> 
+    <!-- TODO: create pretty list -->
+    <p>Element type: <span id="result-type"></span> (rarity level: <span id="result-rarity"></span>)</p> 
+  </div>
+</div>
