@@ -12,6 +12,7 @@ import { AboutPageComponent } from './about-page/about-page.component';
 import { PossibilityTypesComponent } from './possibilities-page/possibility-types/possibility-types.component';
 import { PossibilityLevelsComponent } from './possibilities-page/possibility-levels/possibility-levels.component';
 import { PossibilityOriginsComponent } from './possibilities-page/possibility-origins/possibility-origins.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { PossibilityOriginsComponent } from './possibilities-page/possibility-or
     AboutPageComponent,
     PossibilityTypesComponent,
     PossibilityLevelsComponent,
-    PossibilityOriginsComponent
+    PossibilityOriginsComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
