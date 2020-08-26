@@ -1,7 +1,12 @@
-<ul class="topnav">
-  <li><a routerLink="/home" routerLinkActive="active">Home</a></li>
-  <li><a routerLink="/randomizer" routerLinkActive="active">Randomizer</a></li>
-  <li><a routerLink="/possibilities" routerLinkActive="active">Possibilities</a></li>
-  <li class="right"><a routerLink="/contact" routerLinkActive="active">Contact</a></li>
-  <li class="right"><a routerLink="/about" routerLinkActive="active">About</a></li>
-</ul>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div class="topnav" id="myTopnav">
+  <a routerLink="/home" routerLinkActive="active">Home</a>
+  <a routerLink="/randomizer" routerLinkActive="active">Randomizer</a>
+  <a routerLink="/possibilities" routerLinkActive="active">Possibilities</a>
+  <a class="right" routerLink="/contact" routerLinkActive="active">Contact</a>
+  <a class="right" routerLink="/about" routerLinkActive="active">About</a>
+  <a href="javascript:void(0);" class="icon" (click)="toggleMenu()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
