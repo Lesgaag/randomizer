@@ -13,6 +13,7 @@ import { PossibilityTypesComponent } from './possibilities-page/possibility-type
 import { PossibilityLevelsComponent } from './possibilities-page/possibility-levels/possibility-levels.component';
 import { PossibilityOriginsComponent } from './possibilities-page/possibility-origins/possibility-origins.component';
 import { FooterComponent } from './footer/footer.component';
+import { CarouselComponent } from './carousel/carousel.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { FooterComponent } from './footer/footer.component';
     PossibilityTypesComponent,
     PossibilityLevelsComponent,
     PossibilityOriginsComponent,
-    FooterComponent
+    FooterComponent,
+    CarouselComponent
   ],
   imports: [
     BrowserModule,
