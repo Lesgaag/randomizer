@@ -11,6 +11,7 @@ import { ContactPageComponent } from './contact-page/contact-page.component';
 import { AboutPageComponent } from './about-page/about-page.component';
 import { FooterComponent } from './footer/footer.component';
 import { CarouselComponent } from './carousel/carousel.component';
+import { CollapsibleComponent } from './collapsible/collapsible.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { CarouselComponent } from './carousel/carousel.component';
     ContactPageComponent,
     AboutPageComponent,
     FooterComponent,
-    CarouselComponent
+    CarouselComponent,
+    CollapsibleComponent
   ],
   imports: [
     CommonModule,
