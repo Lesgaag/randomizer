@@ -1,19 +1,19 @@
-<!-- TODO: add pretty styling -->
-<p>
-  Informatie over randomizer
-</p>
+<div class="randomizer-container">
+  <p>
+    Informatie over randomizer
+  </p>
+  <button class="primary-button" id="create-character-button" (click)="createResultDiv()">Create character</button>
 
-<button class="primary-button" id="create-character-button" (click)="createResultDiv()">Create character</button>
+  <!-- TODO: add calculating animation, before showing div below -->
+  <div class="result-card" id="result-card-character" hidden>
+    <div class="result-container">
+      <h4><b>Created character</b></h4>
 
-<!-- TODO: add calculating animation, before showing div below -->
-<div class="result-card" id="result-card-character" hidden>
-  <div class="result-container">
-    <h4><b>Created character</b></h4>
-
-    <!-- TODO: create pretty list -->
-    <ol>
-      <li>Main element type: <span class="resultSpan" id="result-type"></span> (rarity level: <span class="secondResultSpan" id="result-rarity"></span>)</li>
-      <li>Supporting element type: <span class="resultSpan" id="result-suptype"></span> (rarity level: <span class="secondResultSpan" id="result-suprarity"></span>)</li>
-    </ol>
+      <!-- TODO: create pretty list -->
+      <ol>
+        <li>Main element type: <span class="resultSpan" id="result-type"></span> (rarity level: <span class="secondResultSpan" id="result-rarity"></span>)</li>
+        <li>Supporting element type: <span class="resultSpan" id="result-suptype"></span> (rarity level: <span class="secondResultSpan" id="result-suprarity"></span>)</li>
+      </ol>
+    </div>
   </div>
 </div>
