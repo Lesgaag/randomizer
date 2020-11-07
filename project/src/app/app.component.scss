@@ -1,12 +1,13 @@
-// Generic fonts
+// Collection of all generic styling
+// Fonts
 $font-family: Arial, Helvetica, sans-serif;
 
-// Generic font-sizes
+// Font-sizes
 $font-size-s: 10px;
 $font-size-m: 13px;
 $font-size-l: 16px;
 
-// Generic color palette
+// Color palette
 $bat: #000;
 $pearl: #fff;
 $moss: #82AA84;
@@ -18,7 +19,7 @@ p {
     font-size: $font-size-l;
 }
 
-// Generic button styling
+// Button styling
 .primary-button {
     font-family: $font-family;
     background-color: #82AA84;
