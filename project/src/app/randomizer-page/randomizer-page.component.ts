@@ -6,17 +6,24 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./randomizer-page.component.scss'],
 })
 export class RandomizerPageComponent implements OnInit {
+  resultCardHidden = true;
+  primaryButtonHidden = false;
 
   constructor() { }
 
   createResultDiv() {
-    // TODO: change styling of button
-    document.getElementById('create-character-button').innerHTML = 'Create NEW character';
     this.randomElementType('result-type', 'result-rarity');
     this.randomElementType('result-suptype', 'result-suprarity');
 
-    // show card
-    document.getElementById('result-card-character').removeAttribute('hidden');
+    this.resultCardHidden = false;
+    this.primaryButtonHidden = true;
+    document.getElementById('create-character-button').style.display = 'none';
+  }
+
+  onCloseClick() {
+    this.resultCardHidden = true;
+    document.getElementById('create-character-button').removeAttribute('hidden');
+    document.getElementById('create-character-button').style.display = 'block';
   }
 
   randomElementType(typeSpan, raritySpan) {
@@ -123,5 +130,4 @@ export class RandomizerPageComponent implements OnInit {
   }
 
   ngOnInit() {}
-
 }

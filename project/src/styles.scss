@@ -1,6 +1,26 @@
 @import "shared/variables";
 
 // Collection of all generic styling
+h1 {
+    font-size: 24px;
+    margin: 5px;
+}
+
+h2 {
+    font-size: 22px;
+    margin: 5px;
+}
+
+h3 {
+    font-size: 20px;
+    margin: 5px;
+}
+
+h4 {
+    font-size: 18px;
+    margin: 5px;
+}
+
 p {
     font-family: $font-family;
     font-size: $font-size-l;
@@ -24,6 +44,25 @@ p {
 
     &:focus {
         background-color: $grass;
-        outline-color: $grass;
+        outline: none;
     }
+}
+
+.close-button {
+    float: right;
+    margin: 10px;
+    color: $pearl;
+    background-color: $sky;
+    border: 0;
+    border-radius: 3px;
+    outline: 0;
+    
+    &:hover {
+        cursor: pointer;
+        background-color: $pencil;
+    }
+
+    &:active, &:focus {
+        background-color: $night;
+    }   
 }
