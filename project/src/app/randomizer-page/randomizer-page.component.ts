@@ -10,7 +10,7 @@ export class RandomizerPageComponent implements OnInit {
   constructor() { }
 
   createResultDiv() {
-    // TODO: change color of button
+    // TODO: change styling of button
     document.getElementById('create-character-button').innerHTML = 'Create NEW character';
     this.randomElementType('result-type', 'result-rarity');
     this.randomElementType('result-suptype', 'result-suprarity');
