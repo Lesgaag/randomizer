@@ -6,12 +6,8 @@ import { AppComponent } from './app.component';
 import { NavigatorComponent } from './navigator/navigator.component';
 import { MainPageComponent } from './main-page/main-page.component';
 import { RandomizerPageComponent } from './randomizer-page/randomizer-page.component';
-import { PossibilitiesPageComponent } from './possibilities-page/possibilities-page.component';
 import { ContactPageComponent } from './contact-page/contact-page.component';
 import { AboutPageComponent } from './about-page/about-page.component';
-import { PossibilityTypesComponent } from './possibilities-page/possibility-types/possibility-types.component';
-import { PossibilityLevelsComponent } from './possibilities-page/possibility-levels/possibility-levels.component';
-import { PossibilityOriginsComponent } from './possibilities-page/possibility-origins/possibility-origins.component';
 import { FooterComponent } from './footer/footer.component';
 import { CarouselComponent } from './carousel/carousel.component';
 
@@ -21,12 +17,8 @@ import { CarouselComponent } from './carousel/carousel.component';
     NavigatorComponent,
     MainPageComponent,
     RandomizerPageComponent,
-    PossibilitiesPageComponent,
     ContactPageComponent,
     AboutPageComponent,
-    PossibilityTypesComponent,
-    PossibilityLevelsComponent,
-    PossibilityOriginsComponent,
     FooterComponent,
     CarouselComponent
   ],
