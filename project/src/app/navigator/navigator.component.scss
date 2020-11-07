@@ -1,10 +1,17 @@
 $font-family: Arial, Helvetica, sans-serif;
 
+$font-size-m: 13px;
+
+$bat: #000;
+$pearl: #fff;
+$moss: #82AA84;
+$grass: #BCE2BE;
+
 /* Add a black background color to the top navigation */
 .topnav {
   font-family: $font-family;
-  font-size: 13px;
-  background-color: #82AA84;
+  font-size: $font-size-m;
+  background-color: $moss;
   overflow: hidden;
 }
 
@@ -12,7 +19,7 @@ $font-family: Arial, Helvetica, sans-serif;
 .topnav a {
   float: left;
   display: block;
-  color: white;
+  color: $pearl;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -20,14 +27,14 @@ $font-family: Arial, Helvetica, sans-serif;
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: #BCE2BE;
+  background-color: $moss;
   color: black;
 }
 
 /* Add an active class to highlight the current page */
 .topnav a.active {
-  background-color: #BCE2BE;
-  color: white;
+  background-color: $grass;
+  color: $pearl;
 }
 
 /* Hide the link that should open and close the topnav on small screens */

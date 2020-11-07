@@ -1,5 +1,12 @@
 $font-family: Arial, Helvetica, sans-serif;
 
+$font-size-s: 10px;
+$font-size-m: 13px;
+$font-size-l: 16px;
+
+$bat: #000;
+$pearl: #fff;
+
 * {
     margin: 0;
     padding: 0;
@@ -13,9 +20,9 @@ $font-family: Arial, Helvetica, sans-serif;
     padding: 70px 0;
     box-sizing: border-box;
     font-family: $font-family;
-    font-size: 15px;
-    background-color: black;
-    color: white;
+    font-size: $font-size-l;
+    background-color: $bat;
+    color: $pearl;
 }
 
 .inner_footer {
@@ -51,16 +58,16 @@ $font-family: Arial, Helvetica, sans-serif;
 
 .inner_footer .footer_third h1 {
     font-family: $font-family;
-    color: white;
-    font-size: 16px;
+    color: $pearl;
+    font-size: $font-size-l;
     display: block;
     width: 100%;
     margin-bottom: 20px;
 }
 
 .inner_footer .footer_third a {
-    font-size: 13px;
-    color: white;
+    font-size: $font-size-m;
+    color: $pearl;
     display: block;
     font-weight: 200;
     width: 100%;
@@ -70,13 +77,12 @@ $font-family: Arial, Helvetica, sans-serif;
 .inner_footer .footer_third li {
     display: inline-block;
     padding: 0 5px;
-    font-size: 20px;
 }
 
 .inner_footer .footer_third span {
-    color: white;
+    color: $pearl;
     font-family: $font-family;
-    font-size: 10px;
+    font-size: $font-size-s;
     font-weight: 200;
     display: block;
     width: 100%;

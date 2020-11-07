@@ -4,7 +4,7 @@ import { RandomizerPageComponent } from '../randomizer-page/randomizer-page.comp
 @Component({
   selector: 'app-main-page',
   templateUrl: './main-page.component.html',
-  styleUrls: ['./main-page.component.scss']
+  styleUrls: ['./main-page.component.scss', '../app.component.scss']
 })
 
 @NgModule({
