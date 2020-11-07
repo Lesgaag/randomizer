@@ -9,21 +9,6 @@
     "lint": "ng lint",
     "e2e": "ng e2e"
   },
-  "private": true,
-  "dependencies": {
-    "@angular/animations": "~9.1.12",
-    "@angular/common": "~9.1.12",
-    "@angular/compiler": "~9.1.12",
-    "@angular/core": "~9.1.12",
-    "@angular/forms": "~9.1.12",
-    "@angular/http": "~7.0.0",
-    "@angular/platform-browser": "~9.1.12",
-    "@angular/platform-browser-dynamic": "~9.1.12",
-    "@angular/router": "~9.1.12",
-    "core-js": "^2.5.4",
-    "rxjs": "~6.6.3",
-    "zone.js": "~0.10.3"
-  },
   "devDependencies": {
     "@angular-devkit/build-angular": "^0.1002.0",
     "@angular/cli": "^10.1.1",
