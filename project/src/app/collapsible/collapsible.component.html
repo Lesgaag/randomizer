@@ -1,1 +1,14 @@
-<p>collapsible works</p>
+<button class="accordion" (click)="openSection('sectionOneContent')">Section 1</button>
+<div class="panel" id="sectionOneContent" hidden>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+<button class="accordion" (click)="openSection('sectionTwoContent')">Section 2</button>
+<div class="panel" id="sectionTwoContent" hidden>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+<button class="accordion" (click)="openSection('sectionThreeContent')">Section 3</button>
+<div class="panel" id="sectionThreeContent" hidden>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>

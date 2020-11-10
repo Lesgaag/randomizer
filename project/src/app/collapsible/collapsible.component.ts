@@ -5,11 +5,15 @@ import { Component, OnInit, ViewChild } from '@angular/core';
   templateUrl: './collapsible.component.html',
   styleUrls: ['./collapsible.component.scss']
 })
-export class CollapsibleComponent implements OnInit {
 
-  constructor() { }
+export class CollapsibleComponent {
 
-  ngOnInit(): void {
+  openSection(section) {
+    const panel = document.getElementById(section);
+    if (panel.hasAttribute('hidden')) {
+      panel.removeAttribute('hidden');
+    } else {
+      panel.setAttribute('hidden', '');
+    }
   }
-
 }

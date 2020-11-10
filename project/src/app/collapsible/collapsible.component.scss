@@ -1,3 +1,24 @@
 @import "../../shared/variables";
 
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
 
+    &:after {
+        content: '\002B';
+        color: #777;
+        font-weight: bold;
+        float: right;
+        margin-left: 5px;  
+    }
+
+    > &active:after {
+        content: "\2212";
+    }
+}
