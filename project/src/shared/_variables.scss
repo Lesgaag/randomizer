@@ -7,6 +7,9 @@ $font-size-s: 10px;
 $font-size-m: 13px;
 $font-size-l: 16px;
 
+// Margins
+$margin-left: 15px;
+
 // Color palette
 $bat: #000;
 $pearl: #fff;
@@ -17,3 +20,9 @@ $sunset: #F47D3C;   //orange
 $sky: #C3D8EE;      //gray-blue
 $pencil: #ACBFD3;   //gray
 $night: #93A3B4;    //dark gray
+
+// media queries
+$breakpoint-xs: 320px;
+$breakpoint-s: 481px;
+$breakpoint-m: 768px;
+$breakpoint-l: 1024px;
