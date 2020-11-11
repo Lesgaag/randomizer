@@ -2,29 +2,33 @@
 
 // Collection of all generic styling
 h1 {
-    font-size: 24px;
-    margin: 5px;
+    font-family: $font-family;
+    font-size: 32px;
+    margin: 20px $margin-left;
 }
 
 h2 {
+    font-family: $font-family;
     font-size: 22px;
-    margin: 5px;
+    margin: 10px $margin-left;
 }
 
 h3 {
+    font-family: $font-family;
     font-size: 20px;
-    margin: 5px;
+    margin: 5px $margin-left;
 }
 
 h4 {
+    font-family: $font-family;
     font-size: 18px;
-    margin: 5px;
+    margin: 5px $margin-left;
 }
 
 p {
     font-family: $font-family;
     font-size: $font-size-l;
-    margin: 15px;
+    margin: 5px $margin-left;
 }
 
 // Button styling
