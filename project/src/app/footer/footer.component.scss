@@ -43,10 +43,10 @@
     margin-right: 10px;
     float: left;
     height: 100%;
-}
 
-.inner_footer .footer_third:last-child {
-    margin-right: 0;
+    &:last-child {
+        margin-right: 0;
+    }
 }
 
 .inner_footer .footer_third h1 {
@@ -82,7 +82,7 @@
     padding-top: 20px;
 }
 
-@media(max-width: 800px){
+@media(max-width: $breakpoint-m){
     .footer .inner_footer {
         width: 90%;
     }
