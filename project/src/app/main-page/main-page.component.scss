@@ -2,8 +2,13 @@
 
 .text-section-block {
   margin: $margin-left;
+  text-align: center;
 
   > p {
     margin: 0;
   }
+}
+
+.main-title, .main-subtitle {
+  text-align: center
 }
